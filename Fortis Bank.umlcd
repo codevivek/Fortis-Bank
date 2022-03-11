@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_Jk7m0DDiEeyZ-6UrtPpcrA">
+  <modelElement href="Fortis%20Bank.uml#_OgF5QDDiEeyZ-6UrtPpcrA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_O1h9wDDiEeyZ-6UrtPpcrA" sourceAnchor="202.0,78.0" targetAnchor="0.0,74.0" target="_RP2EEDDiEeyZ-6UrtPpcrA" source="_O1jy8DDiEeyZ-6UrtPpcrA">
+    <modelElement href="Fortis%20Bank.uml#_OhoKUDDiEeyZ-6UrtPpcrA"/>
+    <stereotypes xmi:id="_O1ik0DDiEeyZ-6UrtPpcrA" name="Reference">
+      <modelElement href="Fortis%20Bank.uml#_Ohp_gDDiEeyZ-6UrtPpcrA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_O1ik0TDiEeyZ-6UrtPpcrA" text="">
+      <visualProperties xmi:id="_RWxLcDDiEeyZ-6UrtPpcrA" position="-16.0,-24.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_O1ik0jDiEeyZ-6UrtPpcrA" aggregationKind="NONE" name="">
+      <modelElement href="Fortis%20Bank.uml#_OhoKUTDiEeyZ-6UrtPpcrA"/>
+      <visualProperties xmi:id="_RWvWQDDiEeyZ-6UrtPpcrA" position="12.0,2.0"/>
+      <visibility xmi:id="_O1ik0zDiEeyZ-6UrtPpcrA" label="+"/>
+      <cardinality xmi:id="_O1ik1DDiEeyZ-6UrtPpcrA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_O1ik1TDiEeyZ-6UrtPpcrA" aggregationKind="NONE" name="transactions" navigable="true">
+      <modelElement href="Fortis%20Bank.uml#_OhhcoDDiEeyZ-6UrtPpcrA"/>
+      <visualProperties xmi:id="_RWxLcTDiEeyZ-6UrtPpcrA" position="-94.0,2.0"/>
+      <visibility xmi:id="_O1ik1jDiEeyZ-6UrtPpcrA" label="-"/>
+      <cardinality xmi:id="_O1ik1zDiEeyZ-6UrtPpcrA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_QrCG0DDiEeyZ-6UrtPpcrA" sourceAnchor="108.0,0.0" targetAnchor="101.0,130.0" target="_O1jy8DDiEeyZ-6UrtPpcrA" source="_QrKpsjDiEeyZ-6UrtPpcrA">
+    <modelElement href="Fortis%20Bank.uml#_QpG0MDDiEeyZ-6UrtPpcrA"/>
+    <stereotypes xmi:id="_QrD8AzDiEeyZ-6UrtPpcrA" name="Reference">
+      <modelElement href="Fortis%20Bank.uml#_QpIpYDDiEeyZ-6UrtPpcrA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_QrD8ADDiEeyZ-6UrtPpcrA" text="">
+      <visualProperties xmi:id="_RWznsDDiEeyZ-6UrtPpcrA" position="2.0,-8.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_QrD8ATDiEeyZ-6UrtPpcrA" aggregationKind="NONE" name="">
+      <modelElement href="Fortis%20Bank.uml#_QpG0MTDiEeyZ-6UrtPpcrA"/>
+      <visualProperties xmi:id="_RWyZkDDiEeyZ-6UrtPpcrA" position="-17.0,-51.0"/>
+      <visibility xmi:id="_QrINcTDiEeyZ-6UrtPpcrA" label="+"/>
+      <cardinality xmi:id="_QrINcDDiEeyZ-6UrtPpcrA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_QrD8AjDiEeyZ-6UrtPpcrA" aggregationKind="NONE" name="accounts" navigable="true">
+      <modelElement href="Fortis%20Bank.uml#_Qo5Y0DDiEeyZ-6UrtPpcrA"/>
+      <visualProperties xmi:id="_RWznsTDiEeyZ-6UrtPpcrA" position="-104.0,1.0000000000000284"/>
+      <visibility xmi:id="_QrJbkjDiEeyZ-6UrtPpcrA" label="+"/>
+      <cardinality xmi:id="_QrJbkTDiEeyZ-6UrtPpcrA" label="1" max="1" min="1"/>
+      <qualifierHelper xmi:id="_QrI0gDDiEeyZ-6UrtPpcrA">
+        <qualifiers xmi:id="_QrJbkDDiEeyZ-6UrtPpcrA">
+          <modelElement href="Fortis%20Bank.uml#_Qo6m8DDiEeyZ-6UrtPpcrA"/>
+          <visibility xmi:id="_QrKpsDDiEeyZ-6UrtPpcrA" label="+"/>
+          <cardinality xmi:id="_QrKpsTDiEeyZ-6UrtPpcrA" label="1" max="1" min="1"/>
+          <type xmi:id="_QrKCoDDiEeyZ-6UrtPpcrA" name="AccountType">
+            <modelElement href="Fortis%20Bank.uml#_OhVPYDDiEeyZ-6UrtPpcrA"/>
+          </type>
+        </qualifiers>
+      </qualifierHelper>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_O1jy8DDiEeyZ-6UrtPpcrA" name="Account" associationsIn="_QrCG0DDiEeyZ-6UrtPpcrA" associationsOut="_O1h9wDDiEeyZ-6UrtPpcrA">
+    <modelElement href="Fortis%20Bank.uml#_OgMm8DDiEeyZ-6UrtPpcrA"/>
+    <visualProperties xmi:id="_O1jy8TDiEeyZ-6UrtPpcrA" position="174.0,45.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_O1jy8jDiEeyZ-6UrtPpcrA" label="+"/>
+    <attributes xmi:id="_O1kaADDiEeyZ-6UrtPpcrA" name="accountNumber">
+      <modelElement href="Fortis%20Bank.uml#_Ohb9EDDiEeyZ-6UrtPpcrA"/>
+      <stereotypes xmi:id="_O1kaATDiEeyZ-6UrtPpcrA" name="LegacyStyledElement">
+        <modelElement href="Fortis%20Bank.uml#_OhdLMDDiEeyZ-6UrtPpcrA"/>
+      </stereotypes>
+      <visibility xmi:id="_O1kaAjDiEeyZ-6UrtPpcrA" label="-"/>
+      <cardinality xmi:id="_O1kaAzDiEeyZ-6UrtPpcrA" label="1" max="1" min="1"/>
+      <type xmi:id="_O1kaBDDiEeyZ-6UrtPpcrA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_O1kaBTDiEeyZ-6UrtPpcrA" name="accountType">
+      <modelElement href="Fortis%20Bank.uml#_OhdLMTDiEeyZ-6UrtPpcrA"/>
+      <stereotypes xmi:id="_O1lBEDDiEeyZ-6UrtPpcrA" name="LegacyStyledElement">
+        <modelElement href="Fortis%20Bank.uml#_OheZUDDiEeyZ-6UrtPpcrA"/>
+      </stereotypes>
+      <visibility xmi:id="_O1lBETDiEeyZ-6UrtPpcrA" label="-"/>
+      <cardinality xmi:id="_O1lBEjDiEeyZ-6UrtPpcrA" label="1" max="1" min="1"/>
+      <type xmi:id="_O1lBEzDiEeyZ-6UrtPpcrA" name="AccountType">
+        <modelElement href="Fortis%20Bank.uml#_OhVPYDDiEeyZ-6UrtPpcrA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_O1lBFDDiEeyZ-6UrtPpcrA" name="openedDate">
+      <modelElement href="Fortis%20Bank.uml#_OheZUTDiEeyZ-6UrtPpcrA"/>
+      <stereotypes xmi:id="_O1lBFTDiEeyZ-6UrtPpcrA" name="LegacyStyledElement">
+        <modelElement href="Fortis%20Bank.uml#_OhfncDDiEeyZ-6UrtPpcrA"/>
+      </stereotypes>
+      <visibility xmi:id="_O1lBFjDiEeyZ-6UrtPpcrA" label="-"/>
+      <cardinality xmi:id="_O1lBFzDiEeyZ-6UrtPpcrA" label="1" max="1" min="1"/>
+      <type xmi:id="_O1lBGDDiEeyZ-6UrtPpcrA" name="Date">
+        <modelElement href="Fortis%20Bank.uml#_OhK3UDDiEeyZ-6UrtPpcrA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_O1lBGTDiEeyZ-6UrtPpcrA" name="balance">
+      <modelElement href="Fortis%20Bank.uml#_OhfncTDiEeyZ-6UrtPpcrA"/>
+      <stereotypes xmi:id="_O1lBGjDiEeyZ-6UrtPpcrA" name="LegacyStyledElement">
+        <modelElement href="Fortis%20Bank.uml#_OhgOgDDiEeyZ-6UrtPpcrA"/>
+      </stereotypes>
+      <visibility xmi:id="_O1lBGzDiEeyZ-6UrtPpcrA" label="-"/>
+      <cardinality xmi:id="_O1lBHDDiEeyZ-6UrtPpcrA" label="1" max="1" min="1"/>
+      <type xmi:id="_O1lBHTDiEeyZ-6UrtPpcrA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_O1lBHjDiEeyZ-6UrtPpcrA" defaultValue="new ArrayList&lt;>()" name="transactions">
+      <modelElement href="Fortis%20Bank.uml#_OhhcoDDiEeyZ-6UrtPpcrA"/>
+      <stereotypes xmi:id="_O1lBHzDiEeyZ-6UrtPpcrA" name="LegacyStyledElement">
+        <modelElement href="Fortis%20Bank.uml#_OhjR0DDiEeyZ-6UrtPpcrA"/>
+      </stereotypes>
+      <visibility xmi:id="_O1lBIDDiEeyZ-6UrtPpcrA" label="-"/>
+      <cardinality xmi:id="_O1lBITDiEeyZ-6UrtPpcrA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_O1lBIjDiEeyZ-6UrtPpcrA" name="Transaction">
+        <modelElement href="Fortis%20Bank.uml#_OhYSsDDiEeyZ-6UrtPpcrA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_O1lBIzDiEeyZ-6UrtPpcrA" defaultValue="0" name="totalTransPerMonth">
+      <modelElement href="Fortis%20Bank.uml#_Ohj44DDiEeyZ-6UrtPpcrA"/>
+      <stereotypes xmi:id="_O1lBJDDiEeyZ-6UrtPpcrA" name="LegacyStyledElement">
+        <modelElement href="Fortis%20Bank.uml#_Ohkf8TDiEeyZ-6UrtPpcrA"/>
+      </stereotypes>
+      <visibility xmi:id="_O1lBJTDiEeyZ-6UrtPpcrA" label="-"/>
+      <cardinality xmi:id="_O1lBJjDiEeyZ-6UrtPpcrA" label="1" max="1" min="1"/>
+      <type xmi:id="_O1loIDDiEeyZ-6UrtPpcrA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RP2EEDDiEeyZ-6UrtPpcrA" name="Transaction" associationsIn="_O1h9wDDiEeyZ-6UrtPpcrA">
+    <modelElement href="Fortis%20Bank.uml#_OhYSsDDiEeyZ-6UrtPpcrA"/>
+    <visualProperties xmi:id="_RP2rIDDiEeyZ-6UrtPpcrA" position="498.0,49.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_RP2rITDiEeyZ-6UrtPpcrA" label="+"/>
+    <attributes xmi:id="_RP2rIjDiEeyZ-6UrtPpcrA" name="transactionNumber">
+      <modelElement href="Fortis%20Bank.uml#_RNiW8DDiEeyZ-6UrtPpcrA"/>
+      <stereotypes xmi:id="_RP2rIzDiEeyZ-6UrtPpcrA" name="LegacyStyledElement">
+        <modelElement href="Fortis%20Bank.uml#_RNi-ADDiEeyZ-6UrtPpcrA"/>
+      </stereotypes>
+      <visibility xmi:id="_RP2rJDDiEeyZ-6UrtPpcrA" label="-"/>
+      <cardinality xmi:id="_RP2rJTDiEeyZ-6UrtPpcrA" label="1" max="1" min="1"/>
+      <type xmi:id="_RP2rJjDiEeyZ-6UrtPpcrA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RP2rJzDiEeyZ-6UrtPpcrA" name="description">
+      <modelElement href="Fortis%20Bank.uml#_RNjlEDDiEeyZ-6UrtPpcrA"/>
+      <stereotypes xmi:id="_RP2rKDDiEeyZ-6UrtPpcrA" name="LegacyStyledElement">
+        <modelElement href="Fortis%20Bank.uml#_RNkMIDDiEeyZ-6UrtPpcrA"/>
+      </stereotypes>
+      <visibility xmi:id="_RP2rKTDiEeyZ-6UrtPpcrA" label="-"/>
+      <cardinality xmi:id="_RP2rKjDiEeyZ-6UrtPpcrA" label="1" max="1" min="1"/>
+      <type xmi:id="_RP2rKzDiEeyZ-6UrtPpcrA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RP2rLDDiEeyZ-6UrtPpcrA" name="transDate">
+      <modelElement href="Fortis%20Bank.uml#_RNkMITDiEeyZ-6UrtPpcrA"/>
+      <stereotypes xmi:id="_RP2rLTDiEeyZ-6UrtPpcrA" name="LegacyStyledElement">
+        <modelElement href="Fortis%20Bank.uml#_RNkzMDDiEeyZ-6UrtPpcrA"/>
+      </stereotypes>
+      <visibility xmi:id="_RP2rLjDiEeyZ-6UrtPpcrA" label="-"/>
+      <cardinality xmi:id="_RP2rLzDiEeyZ-6UrtPpcrA" label="1" max="1" min="1"/>
+      <type xmi:id="_RP2rMDDiEeyZ-6UrtPpcrA" name="Date">
+        <modelElement href="Fortis%20Bank.uml#_OhK3UDDiEeyZ-6UrtPpcrA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RP2rMTDiEeyZ-6UrtPpcrA" name="transType">
+      <modelElement href="Fortis%20Bank.uml#_RNkzMTDiEeyZ-6UrtPpcrA"/>
+      <stereotypes xmi:id="_RP2rMjDiEeyZ-6UrtPpcrA" name="LegacyStyledElement">
+        <modelElement href="Fortis%20Bank.uml#_RNlaQDDiEeyZ-6UrtPpcrA"/>
+      </stereotypes>
+      <visibility xmi:id="_RP2rMzDiEeyZ-6UrtPpcrA" label="-"/>
+      <cardinality xmi:id="_RP2rNDDiEeyZ-6UrtPpcrA" label="1" max="1" min="1"/>
+      <type xmi:id="_RP2rNTDiEeyZ-6UrtPpcrA" name="TransactionType">
+        <modelElement href="Fortis%20Bank.uml#_RNghwDDiEeyZ-6UrtPpcrA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RP2rNjDiEeyZ-6UrtPpcrA" name="transAmount">
+      <modelElement href="Fortis%20Bank.uml#_RNlaQTDiEeyZ-6UrtPpcrA"/>
+      <stereotypes xmi:id="_RP2rNzDiEeyZ-6UrtPpcrA" name="LegacyStyledElement">
+        <modelElement href="Fortis%20Bank.uml#_RNmBUDDiEeyZ-6UrtPpcrA"/>
+      </stereotypes>
+      <visibility xmi:id="_RP2rODDiEeyZ-6UrtPpcrA" label="-"/>
+      <cardinality xmi:id="_RP2rOTDiEeyZ-6UrtPpcrA" label="1" max="1" min="1"/>
+      <type xmi:id="_RP2rOjDiEeyZ-6UrtPpcrA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RP2rOzDiEeyZ-6UrtPpcrA" name="annualGain">
+      <modelElement href="Fortis%20Bank.uml#_RNmBUTDiEeyZ-6UrtPpcrA"/>
+      <stereotypes xmi:id="_RP2rPDDiEeyZ-6UrtPpcrA" name="LegacyStyledElement">
+        <modelElement href="Fortis%20Bank.uml#_RNmoYDDiEeyZ-6UrtPpcrA"/>
+      </stereotypes>
+      <visibility xmi:id="_RP2rPTDiEeyZ-6UrtPpcrA" label="-"/>
+      <cardinality xmi:id="_RP2rPjDiEeyZ-6UrtPpcrA" label="1" max="1" min="1"/>
+      <type xmi:id="_RP2rPzDiEeyZ-6UrtPpcrA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_QrKpsjDiEeyZ-6UrtPpcrA" name="Customer" associationsOut="_QrCG0DDiEeyZ-6UrtPpcrA">
+    <modelElement href="Fortis%20Bank.uml#_QoXNUDDiEeyZ-6UrtPpcrA"/>
+    <visualProperties xmi:id="_QrLQwDDiEeyZ-6UrtPpcrA" position="167.0,237.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_QrLQwTDiEeyZ-6UrtPpcrA" label="+"/>
+    <attributes xmi:id="_QrLQwjDiEeyZ-6UrtPpcrA" name="customerId">
+      <modelElement href="Fortis%20Bank.uml#_Qo4KsDDiEeyZ-6UrtPpcrA"/>
+      <visibility xmi:id="_QrLQwzDiEeyZ-6UrtPpcrA" label="+"/>
+      <cardinality xmi:id="_QrLQxDDiEeyZ-6UrtPpcrA" label="1" max="1" min="1"/>
+      <type xmi:id="_QrLQxTDiEeyZ-6UrtPpcrA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QrLQxjDiEeyZ-6UrtPpcrA" name="customerName">
+      <modelElement href="Fortis%20Bank.uml#_Qo4xwDDiEeyZ-6UrtPpcrA"/>
+      <visibility xmi:id="_QrLQxzDiEeyZ-6UrtPpcrA" label="+"/>
+      <cardinality xmi:id="_QrLQyDDiEeyZ-6UrtPpcrA" label="1" max="1" min="1"/>
+      <type xmi:id="_QrLQyTDiEeyZ-6UrtPpcrA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QrLQyjDiEeyZ-6UrtPpcrA" name="pin">
+      <modelElement href="Fortis%20Bank.uml#_Qo4xwTDiEeyZ-6UrtPpcrA"/>
+      <visibility xmi:id="_QrLQyzDiEeyZ-6UrtPpcrA" label="+"/>
+      <cardinality xmi:id="_QrLQzDDiEeyZ-6UrtPpcrA" label="1" max="1" min="1"/>
+      <type xmi:id="_QrLQzTDiEeyZ-6UrtPpcrA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QrLQzjDiEeyZ-6UrtPpcrA" defaultValue="new HashMap&lt;>()" name="accounts">
+      <modelElement href="Fortis%20Bank.uml#_Qo5Y0DDiEeyZ-6UrtPpcrA"/>
+      <visibility xmi:id="_QrLQzzDiEeyZ-6UrtPpcrA" label="+"/>
+      <cardinality xmi:id="_QrLQ0DDiEeyZ-6UrtPpcrA" label="1" max="1" min="1"/>
+      <type xmi:id="_QrLQ0TDiEeyZ-6UrtPpcrA" name="Account">
+        <modelElement href="Fortis%20Bank.uml#_OgMm8DDiEeyZ-6UrtPpcrA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QrLQ0jDiEeyZ-6UrtPpcrA" defaultValue="false" name="hasSavingAccount">
+      <modelElement href="Fortis%20Bank.uml#_Qo7OADDiEeyZ-6UrtPpcrA"/>
+      <visibility xmi:id="_QrLQ0zDiEeyZ-6UrtPpcrA" label="+"/>
+      <cardinality xmi:id="_QrLQ1DDiEeyZ-6UrtPpcrA" label="1" max="1" min="1"/>
+      <type xmi:id="_QrLQ1TDiEeyZ-6UrtPpcrA" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QrLQ1jDiEeyZ-6UrtPpcrA" defaultValue="false" name="hasCreditAccount">
+      <modelElement href="Fortis%20Bank.uml#_Qo7OAjDiEeyZ-6UrtPpcrA"/>
+      <visibility xmi:id="_QrLQ1zDiEeyZ-6UrtPpcrA" label="+"/>
+      <cardinality xmi:id="_QrLQ2DDiEeyZ-6UrtPpcrA" label="1" max="1" min="1"/>
+      <type xmi:id="_QrLQ2TDiEeyZ-6UrtPpcrA" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QrLQ2jDiEeyZ-6UrtPpcrA" defaultValue="false" name="hasCurrencyAccount">
+      <modelElement href="Fortis%20Bank.uml#_Qo71ETDiEeyZ-6UrtPpcrA"/>
+      <visibility xmi:id="_QrLQ2zDiEeyZ-6UrtPpcrA" label="+"/>
+      <cardinality xmi:id="_QrLQ3DDiEeyZ-6UrtPpcrA" label="1" max="1" min="1"/>
+      <type xmi:id="_QrLQ3TDiEeyZ-6UrtPpcrA" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_QrLQ3jDiEeyZ-6UrtPpcrA" name="Customer">
+      <modelElement href="Fortis%20Bank.uml#_Qoa3sDDiEeyZ-6UrtPpcrA"/>
+      <keywords xmi:id="_QrLQ3zDiEeyZ-6UrtPpcrA" keyword="create"/>
+      <visibility xmi:id="_QrLQ4DDiEeyZ-6UrtPpcrA" label="+"/>
+      <cardinality xmi:id="_QrLQ4TDiEeyZ-6UrtPpcrA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_QrLQ4jDiEeyZ-6UrtPpcrA">
+        <modelElement href="Fortis%20Bank.uml#_QobewzDiEeyZ-6UrtPpcrA"/>
+        <type xmi:id="_QrLQ4zDiEeyZ-6UrtPpcrA" name="Customer">
+          <modelElement href="Fortis%20Bank.uml#_QoXNUDDiEeyZ-6UrtPpcrA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_QrLQ5DDiEeyZ-6UrtPpcrA" name="customerId">
+        <modelElement href="Fortis%20Bank.uml#_Qoa3sTDiEeyZ-6UrtPpcrA"/>
+        <cardinality xmi:id="_QrLQ5TDiEeyZ-6UrtPpcrA" label="1" max="1" min="1"/>
+        <type xmi:id="_QrLQ5jDiEeyZ-6UrtPpcrA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_QrLQ5zDiEeyZ-6UrtPpcrA" name="customerName">
+        <modelElement href="Fortis%20Bank.uml#_Qoa3sjDiEeyZ-6UrtPpcrA"/>
+        <cardinality xmi:id="_QrLQ6DDiEeyZ-6UrtPpcrA" label="1" max="1" min="1"/>
+        <type xmi:id="_QrLQ6TDiEeyZ-6UrtPpcrA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_QrLQ6jDiEeyZ-6UrtPpcrA" name="pin">
+        <modelElement href="Fortis%20Bank.uml#_QobewDDiEeyZ-6UrtPpcrA"/>
+        <cardinality xmi:id="_QrLQ6zDiEeyZ-6UrtPpcrA" label="1" max="1" min="1"/>
+        <type xmi:id="_QrLQ7DDiEeyZ-6UrtPpcrA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_QDBEkDDiEeyZ-6UrtPpcrA" name="Constants">
+    <modelElement href="Fortis%20Bank.uml#_QB5qQDDiEeyZ-6UrtPpcrA"/>
+    <visualProperties xmi:id="_QDBEkTDiEeyZ-6UrtPpcrA" position="830.0,46.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_QDBEkjDiEeyZ-6UrtPpcrA" label="+"/>
+    <attributes xmi:id="_QDBEkzDiEeyZ-6UrtPpcrA" name="annualInterestRate">
+      <modelElement href="Fortis%20Bank.uml#_QB8tkDDiEeyZ-6UrtPpcrA"/>
+      <stereotypes xmi:id="_QDBElDDiEeyZ-6UrtPpcrA" name="LegacyStyledElement">
+        <modelElement href="Fortis%20Bank.uml#_QB9UoDDiEeyZ-6UrtPpcrA"/>
+      </stereotypes>
+      <visibility xmi:id="_QDBElTDiEeyZ-6UrtPpcrA" label="-"/>
+      <cardinality xmi:id="_QDBEljDiEeyZ-6UrtPpcrA" label="1" max="1" min="1"/>
+      <type xmi:id="_QDBElzDiEeyZ-6UrtPpcrA" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QDBEmDDiEeyZ-6UrtPpcrA" name="accountExtraFees">
+      <modelElement href="Fortis%20Bank.uml#_QB9UoTDiEeyZ-6UrtPpcrA"/>
+      <stereotypes xmi:id="_QDBEmTDiEeyZ-6UrtPpcrA" name="LegacyStyledElement">
+        <modelElement href="Fortis%20Bank.uml#_QB97sDDiEeyZ-6UrtPpcrA"/>
+      </stereotypes>
+      <visibility xmi:id="_QDBEmjDiEeyZ-6UrtPpcrA" label="-"/>
+      <cardinality xmi:id="_QDBEmzDiEeyZ-6UrtPpcrA" label="1" max="1" min="1"/>
+      <type xmi:id="_QDBEnDDiEeyZ-6UrtPpcrA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QDBEnTDiEeyZ-6UrtPpcrA" name="transExtraFees">
+      <modelElement href="Fortis%20Bank.uml#_QB97sTDiEeyZ-6UrtPpcrA"/>
+      <stereotypes xmi:id="_QDBEnjDiEeyZ-6UrtPpcrA" name="LegacyStyledElement">
+        <modelElement href="Fortis%20Bank.uml#_QB-iwDDiEeyZ-6UrtPpcrA"/>
+      </stereotypes>
+      <visibility xmi:id="_QDBEnzDiEeyZ-6UrtPpcrA" label="-"/>
+      <cardinality xmi:id="_QDBEoDDiEeyZ-6UrtPpcrA" label="1" max="1" min="1"/>
+      <type xmi:id="_QDBEoTDiEeyZ-6UrtPpcrA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_SUxEwDDiEeyZ-6UrtPpcrA" name="TransactionType">
+    <modelElement href="Fortis%20Bank.uml#_RNghwDDiEeyZ-6UrtPpcrA"/>
+    <visualProperties xmi:id="_SUxEwTDiEeyZ-6UrtPpcrA" position="830.0,180.0" size="197.0,90.0"/>
+    <stereotypes xmi:id="_SUxEwjDiEeyZ-6UrtPpcrA" name="LegacyStyledElement">
+      <modelElement href="Fortis%20Bank.uml#_STFCsDDiEeyZ-6UrtPpcrA"/>
+    </stereotypes>
+    <visibility xmi:id="_SUxEwzDiEeyZ-6UrtPpcrA" label="+"/>
+    <literals xmi:id="_SUxExDDiEeyZ-6UrtPpcrA" name="Deposit">
+      <modelElement href="Fortis%20Bank.uml#_STFCsTDiEeyZ-6UrtPpcrA"/>
+    </literals>
+    <literals xmi:id="_SUxExTDiEeyZ-6UrtPpcrA" name="Withdraw">
+      <modelElement href="Fortis%20Bank.uml#_STHe8DDiEeyZ-6UrtPpcrA"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_Pio7YDDiEeyZ-6UrtPpcrA" name="AccountType">
+    <modelElement href="Fortis%20Bank.uml#_OhVPYDDiEeyZ-6UrtPpcrA"/>
+    <visualProperties xmi:id="_Pio7YTDiEeyZ-6UrtPpcrA" position="834.0,305.0" size="198.0,126.0"/>
+    <stereotypes xmi:id="_Pio7YjDiEeyZ-6UrtPpcrA" name="LegacyStyledElement">
+      <modelElement href="Fortis%20Bank.uml#_PhivMDDiEeyZ-6UrtPpcrA"/>
+    </stereotypes>
+    <visibility xmi:id="_Pio7YzDiEeyZ-6UrtPpcrA" label="+"/>
+    <literals xmi:id="_Pio7ZDDiEeyZ-6UrtPpcrA" name="Checking">
+      <modelElement href="Fortis%20Bank.uml#_PhivMTDiEeyZ-6UrtPpcrA"/>
+    </literals>
+    <literals xmi:id="_Pio7ZTDiEeyZ-6UrtPpcrA" name="Saving">
+      <modelElement href="Fortis%20Bank.uml#_Phj9UDDiEeyZ-6UrtPpcrA"/>
+    </literals>
+    <literals xmi:id="_Pio7ZjDiEeyZ-6UrtPpcrA" name="Credit">
+      <modelElement href="Fortis%20Bank.uml#_Phj9UTDiEeyZ-6UrtPpcrA"/>
+    </literals>
+    <literals xmi:id="_Pio7ZzDiEeyZ-6UrtPpcrA" name="Currency">
+      <modelElement href="Fortis%20Bank.uml#_PhkkYDDiEeyZ-6UrtPpcrA"/>
+    </literals>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
